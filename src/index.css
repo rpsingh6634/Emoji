@@ -92,3 +92,26 @@ body {
 .copied, .copied:hover {
   background-color: var(--green-blue);
 }
+
+@media only screen and (max-width: 300px){
+  .container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+
+  }
+}
+@media only screen and (max-width: 350px){
+  .container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+
+  }
+}
