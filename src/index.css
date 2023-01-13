@@ -99,8 +99,18 @@ body {
     flex-direction: row;
     flex-wrap: wrap;
     gap: 1rem;
-    justify-content: center;
-    align-items: center;
+    /* justify-content: center;
+    align-items: center; */
 
+  }
+  .item {
+    background-color: var(--white);
+    border-radius: 5px;
+    display: inline-block;
+    width: 5rem;
+    align-self: stretch;
+    text-align: center;
+    padding: 0px 0.5rem;
+    transition: all 0.2s linear;
   }
 }
